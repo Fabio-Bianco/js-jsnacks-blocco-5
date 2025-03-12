@@ -21,3 +21,32 @@ const students = [
 
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
+
+// ciclo for ...of
+
+let studentClass = null;
+
+for (const student of students) {
+  if (student.name === 'Marco Lanci') {
+    studentClass = student.class;
+    break; // Interrompe il ciclo una volta trovato lo studente
+  }
+}
+
+console.log(studentClass); // Risultato: '3C'
+
+
+console.log('=============')
+
+// versione con ciclo for
+
+let classStudent = '';
+
+for (let i = 0; i < students.lengt; i++ ){
+  if (student[i].name === 'Marco Lanci') {
+    classStudent = students[i].class;
+    break;
+  }
+}
+
+console.log(studentClass);

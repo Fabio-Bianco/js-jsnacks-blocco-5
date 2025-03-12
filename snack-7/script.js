@@ -26,10 +26,12 @@ const students = [
 const student = students.find(function(student) {
   return student.id === 2;
 });
-
 console.log(student);
 
+
 console.log("=============");
+
+
 
 // versione arrow function
 
