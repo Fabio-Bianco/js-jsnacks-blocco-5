@@ -1,21 +1,21 @@
 const students = [
   {
     id: 1,
-    name: 'Marco Lanci',
+    name: "Marco Lanci",
     age: 32,
-    class: '3C'
+    class: "3C",
   },
   {
     id: 2,
-    name: 'Mario Banfi',
+    name: "Mario Banfi",
     age: 34,
-    class: '4A'
+    class: "4A",
   },
   {
     id: 3,
-    name: 'Luigi Banzi',
+    name: "Luigi Banzi",
     age: 33,
-    class: '5B'
+    class: "5B",
   },
 ];
 
@@ -27,7 +27,7 @@ const students = [
 let studentClass = null;
 
 for (const student of students) {
-  if (student.name === 'Marco Lanci') {
+  if (student.name === "Marco Lanci") {
     studentClass = student.class;
     break; // Interrompe il ciclo una volta trovato lo studente
   }
@@ -35,15 +35,14 @@ for (const student of students) {
 
 console.log(studentClass); // Risultato: '3C'
 
-
-console.log('=============')
+console.log("=============");
 
 // versione con ciclo for
 
-let classStudent = '';
+let classStudent = "";
 
-for (let i = 0; i < students.lengt; i++ ){
-  if (student[i].name === 'Marco Lanci') {
+for (let i = 0; i < students.lengt; i++) {
+  if (student[i].name === "Marco Lanci") {
     classStudent = students[i].class;
     break;
   }

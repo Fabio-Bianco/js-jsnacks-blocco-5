@@ -45,7 +45,6 @@ function lunghezzaZucchine(zucchine) {
   const zucchCorte = [];
 
   for (let i = 0; i < zucchine.length; i++) {
-    
     if (zucchine[i].length >= 15) {
       zucchLunghe.push(zucchine[i]);
     } else {
