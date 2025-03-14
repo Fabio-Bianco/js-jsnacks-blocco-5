@@ -34,3 +34,17 @@ console.log("=============");
 
 const studente = students.find((student) => student.id === 2);
 console.log(studente);
+
+
+console.log("=============");
+
+let result = null;
+
+for (let i = 0; i < students.length; i++) {
+  if (students[i].id === 2) {
+    result = students[i];
+    break;
+  }
+}
+
+console.log(result);

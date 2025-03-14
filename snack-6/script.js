@@ -36,7 +36,7 @@ console.log("Zucchine corte:", result.zucchineCorte);
 
 console.log("=============");
 
-// versiobe con il ciclo for
+// versione con il ciclo for
 
 const product = lunghezzaZucchine(zucchine);
 
@@ -60,3 +60,5 @@ function lunghezzaZucchine(zucchine) {
 
 console.log("Zucchine lunghe (>= 15 cm):", product.zucchLunghe);
 console.log("Zucchine corte (< 15 cm):", product.zucchCorte);
+
+
