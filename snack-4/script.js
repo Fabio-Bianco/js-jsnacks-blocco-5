@@ -20,3 +20,5 @@ console.log("==========");
 // arrow function
 const newAuthors = posts.map((post) => post.author);
 console.log(newAuthors);
+
+

@@ -42,7 +42,7 @@ console.log("=============");
 let classStudent = "";
 
 for (let i = 0; i < students.lengt; i++) {
-  if (student[i].name === "Marco Lanci") {
+  if (students[i].name === "Marco Lanci") {
     classStudent = students[i].class;
     break;
   }

@@ -21,3 +21,21 @@ console.log("==========");
 const newNumbers = numbers.map((num) => num + 1);
 
 console.log(newNumbers);
+
+
+
+
+
+console.log("==========");
+
+// ciclo for
+
+let result = []
+
+for(let i = 0; i < numbers.length; i++){
+  const currenNumber= number [i] + 1;
+  result.push(currenNumber);
+}
+
+console.log(numbers);
+console.log(result)
